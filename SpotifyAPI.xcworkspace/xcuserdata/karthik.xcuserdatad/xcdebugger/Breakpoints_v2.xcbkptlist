@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D7871E4B-D67B-485C-8EFC-FBEB5AF19F4D"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A0A540D8-AEF8-460F-A0D1-6423C58BA1ED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpotifyAPI/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "search(query:type:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A0A540D8-AEF8-460F-A0D1-6423C58BA1ED - 87f55e40226bc9ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpotifyAPI.MoyaNetworkManager.search(query: Swift.String, type: Swift.String, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SpotifyAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karthik/Documents/App_Development/Apple/iOS/Practice/SpotifyAPI/SpotifyAPI/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "67">
+               </Location>
+               <Location
+                  uuid = "A0A540D8-AEF8-460F-A0D1-6423C58BA1ED - 3bda1a8b38611c0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Moya.Response, Moya.MoyaError&gt;) -&gt; () in SpotifyAPI.MoyaNetworkManager.search(query: Swift.String, type: Swift.String, completion: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "SpotifyAPI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karthik/Documents/App_Development/Apple/iOS/Practice/SpotifyAPI/SpotifyAPI/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "287">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4D6EAB70-114C-4B57-A297-987778FEE71F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/Moya/Sources/Moya/MoyaProvider+Defaults.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "defaultRequestMapping(for:closure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

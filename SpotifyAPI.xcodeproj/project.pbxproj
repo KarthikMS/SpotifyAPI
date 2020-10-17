@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,9 @@
 		250F62B42539FA3200225F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F62B22539FA3200225F79 /* Main.storyboard */; };
 		250F62B62539FA3500225F79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250F62B52539FA3500225F79 /* Assets.xcassets */; };
 		250F62B92539FA3500225F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250F62B72539FA3500225F79 /* LaunchScreen.storyboard */; };
+		250F62C6253A023300225F79 /* SpotifyTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F62C5253A023300225F79 /* SpotifyTarget.swift */; };
+		250F62C9253A073900225F79 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F62C8253A073900225F79 /* ViewModel.swift */; };
+		250F62CC253A076E00225F79 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250F62CB253A076E00225F79 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		250F62B52539FA3500225F79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		250F62B82539FA3500225F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		250F62BA2539FA3500225F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		250F62C5253A023300225F79 /* SpotifyTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyTarget.swift; sourceTree = "<group>"; };
+		250F62C8253A073900225F79 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		250F62CB253A076E00225F79 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 			children = (
 				250F62AB2539FA3200225F79 /* SpotifyAPI */,
 				250F62AA2539FA3200225F79 /* Products */,
+				56752D4B966E4B6026E2275E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +66,22 @@
 				250F62AC2539FA3200225F79 /* AppDelegate.swift */,
 				250F62AE2539FA3200225F79 /* SceneDelegate.swift */,
 				250F62B02539FA3200225F79 /* ViewController.swift */,
+				250F62C8253A073900225F79 /* ViewModel.swift */,
+				250F62CB253A076E00225F79 /* NetworkManager.swift */,
+				250F62C5253A023300225F79 /* SpotifyTarget.swift */,
 				250F62B22539FA3200225F79 /* Main.storyboard */,
 				250F62B52539FA3500225F79 /* Assets.xcassets */,
 				250F62B72539FA3500225F79 /* LaunchScreen.storyboard */,
 				250F62BA2539FA3500225F79 /* Info.plist */,
 			);
 			path = SpotifyAPI;
+			sourceTree = "<group>";
+		};
+		56752D4B966E4B6026E2275E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				250F62CC253A076E00225F79 /* NetworkManager.swift in Sources */,
+				250F62C9253A073900225F79 /* ViewModel.swift in Sources */,
 				250F62B12539FA3200225F79 /* ViewController.swift in Sources */,
 				250F62AD2539FA3200225F79 /* AppDelegate.swift in Sources */,
 				250F62AF2539FA3200225F79 /* SceneDelegate.swift in Sources */,
+				250F62C6253A023300225F79 /* SpotifyTarget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
