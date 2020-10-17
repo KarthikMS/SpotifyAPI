@@ -5,8 +5,6 @@
 //  Created by Karthik on 16/10/20.
 //
 
-
-
 class ViewModel {
     // MARK: - Dependencies
     private let networkManager: NetworkManager = MoyaNetworkManager()
